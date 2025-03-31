@@ -591,11 +591,6 @@ begin
   begin
     showmessage('Log out successful');
     frmLogin.Show;
-    // ADD IN RESET CODE HERE FOR frmClient when fucntionality is created!!
-    //
-    //
-    //
-    //
     frmClient.hide;
     frmLogin.ldtUsername.Clear;
     frmLogin.ldtPassword.Clear;
@@ -666,7 +661,7 @@ begin
       tblFoods.First;
 
     end;
-    // other show/hides here;
+  
 
     tblClients.Locate('ClientID', iClientID, []);
 
